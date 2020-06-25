@@ -1,0 +1,107 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.jumbotron {
+    height: 700px;
+    background-image: url("../gambar/bg.png");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0 -1px;
+    border: 5px solid#333;
+}
+
+.jumbotron h1 {
+    font-family: sans-serif;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+.about {
+    background-color: #f0ffff;
+}
+
+.about2 {
+    background-color: #f0f8ff;
+}
+
+.thumbnail {
+    border: 0px #b0c4de solid;
+    background-color: transparent !important;
+}
+
+.about3 {
+    background-color: #f0ffff;
+}
+
+.contact {
+    background-color: #f0f8ff;
+}
+
+section {
+    min-height: 800px;
+}
+
+#more {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+.row p {
+    margin-top: 20px;
+}
+
+.contact {
+    min-height: 750px;
+}
+
+.contact input {
+    background-color: transparent !important;
+    border: 2px #333 solid;
+    width: 100%;
+}
+
+.contact textarea {
+    background-color: transparent !important;
+    border: 2px #333 solid;
+    width: 100%;
+}
+
+#topbtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50;
+    background-color: #333;
+    color: #aaaaaa;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0, 9em;
+}
